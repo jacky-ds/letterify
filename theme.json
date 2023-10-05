@@ -6,33 +6,33 @@
         "color": {
             "defaultPalette": false,
             "palette": [
-                {"slug": "lty-weiss", "color": "#ffffff", "name": "Lty Weiß"},
-                { "slug": "lty-grau-100", "color": "rgb(243 244 246)", "name": "Lty Grau 100" },
-                { "slug": "lty-grau-200", "color": "rgb(229 231 235)", "name": "Lty Grau 200" },
-                { "slug": "lty-grau-300", "color": "rgb(209 213 219)", "name": "Lty Grau 300" },
-                { "slug": "lty-grau-400", "color": "rgb(156 163 175)", "name": "Lty Grau 400" },
-                { "slug": "lty-grau-500", "color": "rgb(107 114 128)", "name": "Lty Grau 500" },
-                { "slug": "lty-grau-600", "color": "rgb(75 85 99)", "name": "Lty Grau 600" },
-                { "slug": "lty-grau-700", "color": "rgb(55 65 81)", "name": "Lty Grau 700" },
-                { "slug": "lty-grau-800", "color": "rgb(31 41 55)", "name": "Lty Grau 800" },
-                { "slug": "lty-grau-900", "color": "rgb(17 24 39)", "name": "Lty Grau 900" },
-                { "slug": "lty-primary", "color": "rgb(239 68 68)", "name": "Lty Primary" },
-                { "slug": "lty-accent", "color": "rgb(67 56 202)", "name": "Lty Accent" },
-                { "slug": "lty-success", "color": "rgb(52 211 153)", "name": "Lty Success" },
-                { "slug": "lty-info", "color": "rgb(96 165 250)", "name": "Lty Info" },
-                { "slug": "lty-warning", "color": "rgb(251 146 60)", "name": "Lty Warning" },
-                { "slug": "lty-danger", "color": "rgb(236 72 153)", "name": "Lty Danger" }
+                {"slug": "ltf-weiss", "color": "#ffffff", "name": "Ltf Weiß"},
+                { "slug": "ltf-grau-100", "color": "rgb(243 244 246)", "name": "Ltf Grau 100" },
+                { "slug": "ltf-grau-200", "color": "rgb(229 231 235)", "name": "Ltf Grau 200" },
+                { "slug": "ltf-grau-300", "color": "rgb(209 213 219)", "name": "Ltf Grau 300" },
+                { "slug": "ltf-grau-400", "color": "rgb(156 163 175)", "name": "Ltf Grau 400" },
+                { "slug": "ltf-grau-500", "color": "rgb(107 114 128)", "name": "Ltf Grau 500" },
+                { "slug": "ltf-grau-600", "color": "rgb(75 85 99)", "name": "Ltf Grau 600" },
+                { "slug": "ltf-grau-700", "color": "rgb(55 65 81)", "name": "Ltf Grau 700" },
+                { "slug": "ltf-grau-800", "color": "rgb(31 41 55)", "name": "Ltf Grau 800" },
+                { "slug": "ltf-grau-900", "color": "rgb(17 24 39)", "name": "Ltf Grau 900" },
+                { "slug": "ltf-primary", "color": "rgb(239 68 68)", "name": "Ltf Primary" },
+                { "slug": "ltf-accent", "color": "rgb(67 56 202)", "name": "Ltf Accent" },
+                { "slug": "ltf-success", "color": "rgb(52 211 153)", "name": "Ltf Success" },
+                { "slug": "ltf-info", "color": "rgb(96 165 250)", "name": "Ltf Info" },
+                { "slug": "ltf-warning", "color": "rgb(251 146 60)", "name": "Ltf Warning" },
+                { "slug": "ltf-danger", "color": "rgb(236 72 153)", "name": "Ltf Danger" }
             ],
             "background": true,
             "text": true,
             "link": true,
             "custom": false,
             "duotone": [
-                { "slug": "lty-pink-sunset", "colors": ["#11245e", "#dc6300"], "name": "Lty Pink Sunset"}
+                { "slug": "ltf-pink-sunset", "colors": ["#11245e", "#dc6300"], "name": "Ltf Pink Sunset"}
             ],
             "defaultGradients": false,
             "gradients": [
-                { "slug": "lty-sunset", "gradient": "linear-gradient(#F27532, #F7CE68)", "name": "Lty Sunset"}
+                { "slug": "ltf-sunset", "gradient": "linear-gradient(#F27532, #F7CE68)", "name": "Ltf Sunset"}
             ]
         },
         "blocks": {
@@ -40,7 +40,7 @@
                 "color": {
                     "defaultPalette": true,
                     "palette": [
-                        { "slug": "lty-primary", "color": "rgb(239 68 68)", "name": "Lty Primary" }            
+                        { "slug": "ltf-primary", "color": "rgb(239 68 68)", "name": "Ltf Primary" }            
                     ],
                     "gradients": [],
                     "customGradient": false
@@ -49,7 +49,7 @@
             "core/heading": {
                 "typography": {
                     "fontFamilies": [
-                        { "fontFamily": "Pacifico, sans-serif", "slug": "lty-pacifico", "name": "Lty Pacifico"}
+                        { "fontFamily": "Pacifico, sans-serif", "slug": "ltf-pacifico", "name": "Ltf Pacifico"}
                     ]
                 }
             },
@@ -76,7 +76,8 @@
         },
         "typography": {
             "fontFamilies": [
-                { "fontFamily": "Rubik, sans-serif", "slug": "lty-rubik", "name": "Lty Rubik"}
+                { "fontFamily": "Rubik, sans-serif", "slug": "ltf-rubik", "name": "Ltf Rubik"},
+                { "fontFamily": "Pacifico, sans-serif", "slug": "ltf-pacifico", "name": "Ltf Pacifico"}
             ],
             "fontSizes": [
                 { "slug": "small", "size": "0.7rem", "name": "Small"},
@@ -109,14 +110,13 @@
     },
     "styles": {
         "color": {
-            "text": "var(--wp--preset--color--lty-grau-800)",
-            "background": "var(--wp--preset--color--lty-info)"
+            "text": "var(--wp--preset--color--ltf-grau-800)"
         },
         "blocks": {
             "core/button": {
                 "color": {
-                    "gradient": "var(--wp--preset--gradient--lty-sunset)",
-                    "text": "var(--wp--preset--color--lty-grau-800)"
+                    "gradient": "var(--wp--preset--gradient--ltf-sunset)",
+                    "text": "var(--wp--preset--color--ltf-grau-800)"
                 }
             },
             "core/pullquote": {
@@ -124,17 +124,17 @@
                     "width": "2px",
                     "radius": "10px",
                     "style": "solid",
-                    "color": "var(--wp--preset--color--lty-primary)"
+                    "color": "var(--wp--preset--color--ltf-primary)"
                 }
             },
             "core/heading": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font--family--lty-pacifico)"
+                    "fontFamily": "var(--wp--preset--font--family--ltf-pacifico)"
                 }
             }
         },
         "typography": {
-            "fontFamily": "var(--wp--preset--font--family--lty-rubik)",
+            "fontFamily": "var(--wp--preset--font--family--ltf-rubik)",
             "fontSize": "16px",
             "fontStyle": "normal",
             "fontWeight": "normal",
@@ -157,5 +157,10 @@
             },
             "blockGap": "4rem"
         }
-    }
+    },
+    "customTemplates": [
+        {
+            "name": "full-width-page", "title": "Full Width Page", "postTypes": ["page"]
+        }
+    ]
 }

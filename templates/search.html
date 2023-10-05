@@ -1,0 +1,53 @@
+<!-- wp:template-part {"slug":"header","theme":"letterify","tagName":"header","className":"shadow"} /-->
+
+<!-- wp:columns {"style":{"spacing":{"margin":{"top":"4rem","bottom":"4rem"}}},"className":"container !mx-auto","fontFamily":"ltf-rubik"} -->
+<div class="wp-block-columns container !mx-auto has-ltf-rubik-font-family" style="margin-top:4rem;margin-bottom:4rem"><!-- wp:column {"width":"70%"} -->
+  <div class="wp-block-column" style="flex-basis:70%"><!-- wp:letterify-plus/search-form /-->
+  
+  <!-- wp:query {"queryId":16,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"list"}} -->
+  <div class="wp-block-query"><!-- wp:post-template -->
+  <!-- wp:columns {"style":{"spacing":{"margin":{"top":"2.5rem","bottom":"2.5rem"},"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
+  <div class="wp-block-columns" style="margin-top:2.5rem;margin-bottom:2.5rem;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:column {"width":"33.33%","style":{"spacing":{"blockGap":"0px"}}} -->
+  <div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:post-author {"avatarSize":24,"showBio":false,"style":{"spacing":{"margin":{"bottom":"0.5rem"}}},"textColor":"ltf-grau-700","className":"post-author"} /-->
+  
+  <!-- wp:post-title {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|ltf-grau-700"}}},"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1.8"},"spacing":{"margin":{"bottom":"1rem"}}},"fontSize":"medium"} /-->
+  
+  <!-- wp:post-date {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|ltf-grau-500"}}}}} /--></div>
+  <!-- /wp:column -->
+  
+  <!-- wp:column {"width":"66.66%","style":{"spacing":{"blockGap":"0"}},"className":"mt-0"} -->
+  <div class="wp-block-column mt-0" style="flex-basis:66.66%"><!-- wp:post-featured-image {"isLink":true,"width":"100%","style":{"border":{"width":"rem"},"spacing":{"margin":{"bottom":"1rem"}}},"className":"rounded-lg overflow-hidden"} /-->
+  
+  <!-- wp:group {"textColor":"ltf-grau-700","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"},"fontSize":"medium"} -->
+  <div class="wp-block-group has-ltf-grau-700-color has-text-color has-medium-font-size"><!-- wp:tag-cloud /-->
+  
+  <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"},"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"className":"bi post-comment-count","fontSize":"small","fontFamily":"ltf-rubik"} -->
+  <p class="bi post-comment-count has-ltf-rubik-font-family has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">1a</p>
+  <!-- /wp:paragraph --></div>
+  <!-- /wp:group -->
+  
+  <!-- wp:post-excerpt {"style":{"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"medium"} /--></div>
+  <!-- /wp:column --></div>
+  <!-- /wp:columns -->
+  <!-- /wp:post-template -->
+  
+  <!-- wp:query-pagination {"paginationArrow":"arrow","style":{"elements":{"link":{"color":{"text":"var:preset|color|ltf-grau-500"}}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
+  <!-- wp:query-pagination-previous {"className":"rounded-md py-2 px-4 block transition-all hover:bg-gray-100"} /-->
+  
+  <!-- wp:query-pagination-next {"className":"rounded-md py-2 px-4 block transition-all hover:bg-gray-100"} /-->
+  <!-- /wp:query-pagination -->
+  
+  <!-- wp:query-no-results -->
+  <!-- wp:paragraph {"placeholder":"Füge Text oder Blöcke hinzu, die angezeigt werden, wenn eine Abfrage keine Ergebnisse ausgibt."} -->
+  <p></p>
+  <!-- /wp:paragraph -->
+  <!-- /wp:query-no-results --></div>
+  <!-- /wp:query --></div>
+  <!-- /wp:column -->
+  
+  <!-- wp:column {"width":"30%"} -->
+  <div class="wp-block-column" style="flex-basis:30%"><!-- wp:template-part {"slug":"sidebar","theme":"letterify"} /--></div>
+  <!-- /wp:column --></div>
+  <!-- /wp:columns -->
+  
+  <!-- wp:template-part {"slug":"footer","theme":"letterify","tagName":"footer","className":"bg-gray-700 p-16"} /-->
